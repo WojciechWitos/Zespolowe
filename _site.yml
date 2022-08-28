@@ -1,5 +1,0 @@
-nav:
-  title: "My Website"
-  left:
-    - text: "Welcome"
-      href: docs/Welcome.md
