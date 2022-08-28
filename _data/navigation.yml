@@ -8,6 +8,6 @@
   url: /about/
   sublinks:
     - title: Company
-      url: /about/company/
+      url: 'index.md'
     - title: Jobs
       url: /about/jobs/
