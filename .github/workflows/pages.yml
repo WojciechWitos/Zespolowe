@@ -14,8 +14,6 @@ permissions:
   contents: read
   pages: write
   id-token: write
-#Buil settings
-theme: ARCHITECT
 # Allow one concurrent deployment
 concurrency:
   group: "pages"
