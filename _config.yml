@@ -1,1 +1,10 @@
+#Buil settings
+remote_theme:  pages-themes/midnight
 
+navbar:
+  title: "My Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
