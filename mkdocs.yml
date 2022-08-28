@@ -1,3 +1,4 @@
+site_name: Documentation
 theme:
   features:
     - navigation.instant
