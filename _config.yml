@@ -2,3 +2,5 @@ remote_theme: granbom/jekyll-theme-bootstrap4-navbar-cdn
 title: Octocat's homepage
 description: Bookmark this to keep an eye on my project updates!
 navbar-fixed-left: true
+nav:
+    - First: 'first.md'
