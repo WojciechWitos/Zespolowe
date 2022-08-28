@@ -1,1 +1,1 @@
-# ProgZesp
+# Programowanie zespołowe
