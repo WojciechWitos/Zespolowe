@@ -1,10 +1,4 @@
 remote_theme: granbom/jekyll-theme-bootstrap4-navbar-cdn
 title: Octocat's homepage
 description: Bookmark this to keep an eye on my project updates!
-
-nav:
-    left:
-        - Home: 'index.md'
-        - About: 'about.md'
-        - Home: 'index.md'
-        - About: 'about.md'
+navbar-fixed-left: true
