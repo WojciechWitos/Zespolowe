@@ -34,7 +34,10 @@ theme:
 extra_css: [extra.css]
 plugins:
     - search
-
+    - git-revision-date-localized
+    - git-authors
 markdown_extensions:
     - tables
     - attr_list
+    - toc:
+            permalink: "#"
