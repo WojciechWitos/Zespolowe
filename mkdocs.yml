@@ -1,0 +1,40 @@
+site_name: Programowanie Zespolowe
+repo_url: https://github.com/WojciechWitos/Zespolowe
+repo_name: WojciechWitos/Zespolowe
+nav:
+  - Opis projektu:
+      - Opis glowny: opis.md
+      - Moduly:
+          - Main:
+              - Main opis: Main.md
+              - Main code: MainCode.md
+          - Kalkulator:
+              - Kalkulator opis: Calc.md
+              - Kalkulator code: CalcCode.md
+theme:
+    icon:
+    repo: fontawesome/brands/git-alt
+    name: material
+    palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+    features:
+        - navigation.indexes
+        - content.tabs.link
+        - search.share
+        - search.highlight
+        - search.suggest
+
+extra_css: [extra.css]
+plugins:
+    - search
+
+markdown_extensions:
+    - tables
+    - attr_list
