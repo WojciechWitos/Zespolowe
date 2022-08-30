@@ -15,9 +15,9 @@ Przycisk ***add***, powoduje, że elementy  są dodawane do listy tak jak w przy
 ## Klasa Weather
 Klasa pobiera plik formatu .json z podanego linku, odpowiada za to polecenie urlib.request.urlopena następnie odczytuje dane używając .read po czym przy użyciu biblioteki pandas oraz polecenia json_normalize, normalizuje jego wyświetlanie usuwając numer indexu.
 Dodatkowo każda klasa zawiera panel pozwalający na nawigację pomiędzy klasami.
-![](/images/MainPage.png)
-![](/images/ToDo.png)
-![](/images/Weather.png)
+![](images/MainPage.png)
+![](images/ToDo.png)
+![](images/Weather.png)
 ## Code
 ```
 import tkinter as tk           

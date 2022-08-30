@@ -1,7 +1,10 @@
-# Kalkulator
+# Kalkulatorasdasd
 
+Program opierał sie na bibliotece tkinter
+przy uruchomieniu kodu tworzona jest instancja klasy kalkulator i wykonywana na niej metoda run.
+W konstruktorze klasy kalkulator tworzone są podstawowe okna oraz konfiguracja zmiennych.
 
-![](/images/Calc.png)
+![](images/Calc.png)
 
 ##Code
 
