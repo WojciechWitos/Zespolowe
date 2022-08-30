@@ -41,25 +41,24 @@ class SampleApp(tk.Tk):
 
 class StartPage(tk.Frame):
     
-
     def __init__(self, parent, controller):
-
+ 
         tk.Frame.__init__(self, parent)
         self.controller = controller
-        self.controller.title('API')
+        self.controller.title('Programowanie Zespolowe')
         self.controller.state('zoomed')
-        label = tk.Label(self, text="Main page", font=controller.title_font)
-        label.place(relx=0.5, rely=0.05, anchor=CENTER)
-        
+        label = tk.Label(self, text="Programowanie Zespołowe \n Semestr 6 Informatyka Stosowana \n\n Grupa: \n Wojciech Witos, \nKacper Ruszczyk,  \nMichał Trond, \nJakub Kozubek, \nSzymon Skoczylas", font=controller.title_font)
+        label.place(relx=0.5, rely=0.25, anchor=CENTER)
+ 
         button1 = tk.Button(self, text="Go to To Do List",
                             command=lambda: controller.show_frame("ToDoList"))
         button2 = tk.Button(self, text="Go to Weather Page ",
                            command=lambda: controller.show_frame("Weather"))
         button3 = tk.Button(self, text="Go to Calculator",
                             command=lambda: controller.show_frame("Calculator"))
-        button1.place(relx=0.45, rely=0.1, anchor=CENTER)
-        button2.place(relx=0.5, rely=0.1, anchor=CENTER)
-        button3.place(relx=0.55, rely=0.1, anchor=CENTER)
+        button1.place(relx=0.45, rely=0.05, anchor=CENTER)
+        button2.place(relx=0.5, rely=0.05, anchor=CENTER)
+        button3.place(relx=0.55, rely=0.05, anchor=CENTER)
 
 
 class Calculator(tk.Frame):
