@@ -3,14 +3,10 @@ repo_url: https://github.com/WojciechWitos/Zespolowe
 repo_name: WojciechWitos/Zespolowe
 nav:
   - Opis projektu:
-      - Opis glowny: opis.md
+      - Opis glowny: index.md
       - Moduly:
-          - Main:
-              - Main opis: Main.md
-              - Main code: MainCode.md
-          - Kalkulator:
-              - Kalkulator opis: Calc.md
-              - Kalkulator code: CalcCode.md
+          - Main code: MainCode.md
+          - Kalkulator code: Calc.md
 theme:
     icon:
     repo: fontawesome/brands/git-alt
